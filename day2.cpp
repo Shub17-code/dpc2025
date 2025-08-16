@@ -12,7 +12,7 @@ int missingNumber(vector<int>&a, int n) {
 
     int missingNum = sum - s2;
     return missingNum;
-}
+} 
 
 int main()
 {
