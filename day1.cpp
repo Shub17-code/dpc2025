@@ -3,7 +3,7 @@ using namespace std;
 
 void sortArray(vector<int>& arr, int n) {
 
-    int low = 0, mid = 0, high = n - 1; // 3 pointers
+    int low = 0, mid = 0, high = n - 1; 
 
     while (mid <= high) {
         if (arr[mid] == 0) {
