@@ -9,7 +9,8 @@ void merge(vector<int> &arr1, vector<int> &arr2, int n, int m) {
     while (left >= 0 && right < m) {
         if (arr1[left] > arr2[right]) {
             swap(arr1[left], arr2[right]);
-            left--, right++;
+            left--;
+            right++;
         }
         else {
             break;
